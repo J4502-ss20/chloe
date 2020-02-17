@@ -1,12 +1,23 @@
 /*styles go here*/
 
+
 p {
 	color: #666666;
-    font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Merriweather', Georgia,"Times New Roman", serif;
+	font-size: 1rem;
+	line-height: 1.5rem;
 }
 
-h1 {
-    font-family: Georgia, "Times New Roman", serif;
+.italic {
+		font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
+}
+
+body{
+	background-color:#ebe3ce;
 }
 
 #container{
