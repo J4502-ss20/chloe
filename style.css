@@ -154,7 +154,7 @@ body {
 
 .container {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 }
 
 @media (min-width: 600px) {
@@ -171,4 +171,29 @@ body {
 		margin-right: auto;
 	}
 
+}
+
+@@media screen and (min-width: 600px) {
+  #container {
+    width: 80%}
+
+}
+
+@media screen and (min-width: 800px) {
+  .item-1 {
+    margin-right: auto;
+
+  }
+
+  @media screen and (min-width: 1000px) {
+    article {
+      display:grid;
+      grid-template-columns: 200px 1fr 1fr;
+      grid-gap: 20px;
+      grid-template-areas:
+        "a b b"
+        "c c e"
+        ". d d"
+    }
+  }
 }
