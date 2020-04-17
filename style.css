@@ -201,4 +201,24 @@ body {
         ". d d"
     }
   }
+
+  .menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+}
+
+@media screen and (min-width: 700px){
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        border-top: none;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
 }
