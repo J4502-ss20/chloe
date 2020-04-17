@@ -161,7 +161,23 @@ body {
     max-width: 800px;
     min-width: 200px;
   }
+  nav ul {
+      display: flex;
+  }
 
+  nav ul li {
+      border-top: none;
+  }
+
+  .menu-trigger {
+      display: none;
+  }
+}
+
+
+  nav ul {
+      display: none;
+  }
 @media (min-width: 600px) {
 	.container {
 		flex-direction: row;
@@ -209,16 +225,3 @@ body {
 }
 
 @media screen and (min-width: 700px){
-
-    nav ul {
-        display: flex;
-    }
-
-    nav ul li {
-        border-top: none;
-    }
-
-    .menu-trigger {
-        display: none;
-    }
-}
